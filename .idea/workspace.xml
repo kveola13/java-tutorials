@@ -2,7 +2,27 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="d505f614-6ac8-4bad-8c1b-709fa8c09178" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/kveola/basics/LoggingLevel.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/kveola/basics/Name.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/kveola/basics/Person.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/kveola/basics/forLoops.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/kveola/basics/test.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/com/kveola/basics/PersonTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/java-practice.iml" beforeDir="false" afterPath="$PROJECT_DIR$/java-practice.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/java-practice/com/kveola/hackerrank/interview/Comparator.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/java-practice/com/kveola/hackerrank/interview/MyCalculator.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/java-practice/com/kveola/hackerrank/interview/Test4$Inner.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/java-practice/com/kveola/hackerrank/interview/Test4.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/java-practice/com/kveola/hackerrank/interview/question1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/java-practice/com/kveola/hackerrank/interview/question2.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/java-practice/com/kveola/hackerrank/interview/question3.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/java-practice/com/kveola/hackerrank/interview/question4.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/java-practice/com/kveola/hackerrank/intro.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/java-practice/com/kveola/lesson_1/lesson_1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/java-practice/com/kveola/lesson_1/test.class" beforeDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -10,9 +30,40 @@
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
+  <component name="DatabaseView">
+    <option name="SHOW_INTERMEDIATE" value="true" />
+    <option name="GROUP_DATA_SOURCES" value="true" />
+    <option name="GROUP_SCHEMA" value="true" />
+    <option name="GROUP_CONTENTS" value="false" />
+    <option name="SORT_POSITIONED" value="false" />
+    <option name="SHOW_EMPTY_GROUPS" value="false" />
+    <option name="AUTO_SCROLL_FROM_SOURCE" value="false" />
+    <option name="HIDDEN_KINDS">
+      <set />
+    </option>
+    <expand>
+      <path>
+        <item name="Database" type="3277223f:DatabaseStructure$DbRootGroup" />
+        <item name="@localhost" type="feb32156:DbDataSourceImpl" />
+      </path>
+      <path>
+        <item name="Database" type="3277223f:DatabaseStructure$DbRootGroup" />
+        <item name="@localhost" type="feb32156:DbDataSourceImpl" />
+        <item name="schemas" type="d4e8921:DatabaseStructure$FamilyGroup" />
+      </path>
+      <path>
+        <item name="Database" type="3277223f:DatabaseStructure$DbRootGroup" />
+        <item name="@localhost" type="feb32156:DbDataSourceImpl" />
+        <item name="schemas" type="d4e8921:DatabaseStructure$FamilyGroup" />
+        <item name="world: schema" type="76f4a085:MysqlImplModel$Schema" />
+      </path>
+    </expand>
+    <select />
+  </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
+        <option value="JUnit5 Test Class" />
         <option value="Class" />
       </list>
     </option>
@@ -24,9 +75,18 @@
   <component name="ProjectId" id="1Oq2XwyejrQQBsANQs7k7dhNYmF" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="PropertiesComponent">
+    <property name="DatabaseDriversLRU" value="mysql" />
+    <property name="Downloaded.Files.Path.Enabled" value="false" />
+    <property name="Repository.Attach.Annotations" value="false" />
+    <property name="Repository.Attach.JavaDocs" value="false" />
+    <property name="Repository.Attach.Sources" value="false" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
+    <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary" value="JUnit5" />
+    <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit5" value="" />
+    <property name="create.test.in.the.same.root" value="true" />
+    <property name="last_directory_selection" value="$PROJECT_DIR$/src/main/java" />
     <property name="last_opened_file_path" value="C:/Program Files/Git/bin/git.exe" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.detected.package.tslint" value="true" />
@@ -37,14 +97,24 @@
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="c:/program files/nodejs/node" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
     <property name="nodejs_package_manager_path" value="npm" />
-    <property name="project.structure.last.edited" value="Project" />
-    <property name="project.structure.proportion" value="0.0" />
-    <property name="project.structure.side.proportion" value="0.0" />
-    <property name="settings.editor.selected.configurable" value="vcs.Git" />
+    <property name="project.structure.last.edited" value="Facets" />
+    <property name="project.structure.proportion" value="0.15" />
+    <property name="project.structure.side.proportion" value="0.2" />
+    <property name="settings.editor.selected.configurable" value="reference.projectsettings.compiler.javacompiler" />
   </component>
   <component name="RecentsManager">
+    <key name="CreateTestDialog.RecentsKey">
+      <recent name="main.java.com.kveola.basics" />
+      <recent name="main.java_basics" />
+    </key>
     <key name="CopyClassDialog.RECENTS_KEY">
       <recent name="com.kveola.hackerrank.interview" />
+    </key>
+    <key name="CreateTestDialog.Recents.Supers">
+      <recent name="" />
+    </key>
+    <key name="CreateClassDialog.RecentsKey">
+      <recent name="main.java.com.kveola.basics" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -59,34 +129,20 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.question4">
-    <configuration name="Test4" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.kveola.hackerrank.interview.Test4" />
-      <module name="java-practice" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.kveola.hackerrank.interview.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
+  <component name="RunManager" selected="JUnit.PersonTest.demonstrateArrays">
     <configuration default="true" type="Application" factoryName="Application">
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="intro" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.kveola.hackerrank.intro" />
+    <configuration name="forLoops" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.kveola.basics.forLoops" />
       <module name="java-practice" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.kveola.hackerrank.*" />
+          <option name="PATTERN" value="com.kveola.basics.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -94,44 +150,69 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="question1" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.kveola.hackerrank.interview.question1" />
+    <configuration name="PersonTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="java-practice" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.kveola.hackerrank.interview.*" />
+          <option name="PATTERN" value="com.kveola.basics.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
+      <option name="PACKAGE_NAME" value="com.kveola.basics" />
+      <option name="MAIN_CLASS_NAME" value="com.kveola.basics.PersonTest" />
+      <option name="TEST_OBJECT" value="class" />
+      <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="question4" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.kveola.hackerrank.interview.question4" />
+    <configuration name="PersonTest.demonstrateArrays" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="java-practice" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.kveola.hackerrank.interview.*" />
+          <option name="PATTERN" value="com.kveola.basics.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
+      <option name="PACKAGE_NAME" value="com.kveola.basics" />
+      <option name="MAIN_CLASS_NAME" value="com.kveola.basics.PersonTest" />
+      <option name="METHOD_NAME" value="demonstrateArrays" />
+      <option name="TEST_OBJECT" value="method" />
+      <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="test" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.kveola.lesson_1.test" />
+    <configuration name="PersonTest.shouldReturnNumberOfPersons" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="java-practice" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.kveola.lesson_1.*" />
+          <option name="PATTERN" value="com.kveola.basics.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
+      <option name="PACKAGE_NAME" value="com.kveola.basics" />
+      <option name="MAIN_CLASS_NAME" value="com.kveola.basics.PersonTest" />
+      <option name="METHOD_NAME" value="shouldReturnNumberOfPersons" />
+      <option name="TEST_OBJECT" value="method" />
+      <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="PersonTest.shouldReturnNumberOfPersonsInLoop" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="java-practice" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.kveola.basics.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.kveola.basics" />
+      <option name="MAIN_CLASS_NAME" value="com.kveola.basics.PersonTest" />
+      <option name="METHOD_NAME" value="shouldReturnNumberOfPersonsInLoop" />
+      <option name="TEST_OBJECT" value="method" />
+      <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -154,11 +235,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.question4" />
-        <item itemvalue="Application.Test4" />
-        <item itemvalue="Application.question1" />
-        <item itemvalue="Application.intro" />
-        <item itemvalue="Application.test" />
+        <item itemvalue="JUnit.PersonTest.demonstrateArrays" />
+        <item itemvalue="JUnit.PersonTest.shouldReturnNumberOfPersonsInLoop" />
+        <item itemvalue="JUnit.PersonTest.shouldReturnNumberOfPersons" />
+        <item itemvalue="JUnit.PersonTest" />
+        <item itemvalue="Application.forLoops" />
       </list>
     </recent_temporary>
   </component>
@@ -166,7 +247,12 @@
     <option name="allServicesViewState">
       <serviceView>
         <treeState>
-          <expand />
+          <expand>
+            <path>
+              <item name="services root" type="e789fda9:ObjectUtils$Sentinel" />
+              <item name="com.intellij.execution.services.ServiceModel$ServiceGroupNode@7fa73ab" type="7427dc5b:ServiceModel$ServiceGroupNode" />
+            </path>
+          </expand>
           <select />
         </treeState>
       </serviceView>
@@ -187,8 +273,24 @@
       <workItem from="1566758885973" duration="46000" />
       <workItem from="1566759158934" duration="70000" />
       <workItem from="1566761584558" duration="134000" />
-      <workItem from="1566761921355" duration="895000" />
+      <workItem from="1566761921355" duration="1064000" />
+      <workItem from="1566767606539" duration="1277000" />
+      <workItem from="1566849919471" duration="6360000" />
+      <workItem from="1568574025715" duration="147000" />
+      <workItem from="1568574455843" duration="843000" />
+      <workItem from="1574029562202" duration="86000" />
+      <workItem from="1574029686284" duration="2239000" />
+      <workItem from="1574102776419" duration="2134000" />
+      <workItem from="1574272413546" duration="777000" />
+      <workItem from="1574782105168" duration="3389000" />
     </task>
+    <task id="LOCAL−00001" summary="added better gitignore">
+      <created>1566763715557</created>
+      <option name="number" value="LOCAL−00001" />
+      <option name="presentableId" value="LOCAL−00001" />
+      <updated>1566763715557</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -206,5 +308,9 @@
         </entry>
       </map>
     </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="added better gitignore" />
+    <option name="LAST_COMMIT_MESSAGE" value="added better gitignore" />
   </component>
 </project>
