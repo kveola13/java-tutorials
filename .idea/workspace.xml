@@ -2,27 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="d505f614-6ac8-4bad-8c1b-709fa8c09178" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/kveola/basics/LoggingLevel.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/kveola/basics/Name.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/kveola/basics/Person.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/kveola/basics/forLoops.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/kveola/basics/test.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/com/kveola/basics/PersonTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/java-practice.iml" beforeDir="false" afterPath="$PROJECT_DIR$/java-practice.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/java-practice/com/kveola/hackerrank/interview/Comparator.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/java-practice/com/kveola/hackerrank/interview/MyCalculator.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/java-practice/com/kveola/hackerrank/interview/Test4$Inner.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/java-practice/com/kveola/hackerrank/interview/Test4.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/java-practice/com/kveola/hackerrank/interview/question1.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/java-practice/com/kveola/hackerrank/interview/question2.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/java-practice/com/kveola/hackerrank/interview/question3.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/java-practice/com/kveola/hackerrank/interview/question4.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/java-practice/com/kveola/hackerrank/intro.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/java-practice/com/kveola/lesson_1/lesson_1.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/java-practice/com/kveola/lesson_1/test.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/kveola/basics/LoggingLevel.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/kveola/basics/LoggingLevel.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/kveola/basics/PersonTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/kveola/basics/PersonTest.java" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -116,6 +99,11 @@
     <key name="CreateClassDialog.RecentsKey">
       <recent name="main.java.com.kveola.basics" />
     </key>
+  </component>
+  <component name="RunAnythingCache">
+    <option name="myCommands">
+      <command value="mvn clean" />
+    </option>
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
@@ -282,7 +270,7 @@
       <workItem from="1574029686284" duration="2239000" />
       <workItem from="1574102776419" duration="2134000" />
       <workItem from="1574272413546" duration="777000" />
-      <workItem from="1574782105168" duration="3389000" />
+      <workItem from="1574782105168" duration="4468000" />
     </task>
     <task id="LOCAL−00001" summary="added better gitignore">
       <created>1566763715557</created>
@@ -290,7 +278,13 @@
       <option name="presentableId" value="LOCAL−00001" />
       <updated>1566763715557</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL−00002" summary="tutorial work">
+      <created>1574791231694</created>
+      <option name="number" value="LOCAL−00002" />
+      <option name="presentableId" value="LOCAL−00002" />
+      <updated>1574791231694</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -311,6 +305,7 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="added better gitignore" />
-    <option name="LAST_COMMIT_MESSAGE" value="added better gitignore" />
+    <MESSAGE value="tutorial work" />
+    <option name="LAST_COMMIT_MESSAGE" value="tutorial work" />
   </component>
 </project>
