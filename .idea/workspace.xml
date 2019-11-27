@@ -2,10 +2,12 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="d505f614-6ac8-4bad-8c1b-709fa8c09178" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/kveola/basics/CarLogging.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/logback.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/com/kveola/basics/CarLoggingTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/java-practice.iml" beforeDir="false" afterPath="$PROJECT_DIR$/java-practice.iml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/kveola/basics/LoggingLevel.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/kveola/basics/LoggingLevel.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/com/kveola/basics/PersonTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/kveola/basics/PersonTest.java" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -46,14 +48,22 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="JUnit5 Test Class" />
         <option value="Class" />
+        <option value="JUnit5 Test Class" />
+        <option value="Tag Library Descriptor" />
       </list>
     </option>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
     <option name="ROOT_SYNC" value="DONT_SYNC" />
+  </component>
+  <component name="MavenImportPreferences">
+    <option name="importingSettings">
+      <MavenImportingSettings>
+        <option name="importAutomatically" value="true" />
+      </MavenImportingSettings>
+    </option>
   </component>
   <component name="ProjectId" id="1Oq2XwyejrQQBsANQs7k7dhNYmF" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
@@ -87,14 +97,15 @@
   </component>
   <component name="RecentsManager">
     <key name="CreateTestDialog.RecentsKey">
+      <recent name="com.kveola.basics" />
       <recent name="main.java.com.kveola.basics" />
       <recent name="main.java_basics" />
     </key>
-    <key name="CopyClassDialog.RECENTS_KEY">
-      <recent name="com.kveola.hackerrank.interview" />
-    </key>
     <key name="CreateTestDialog.Recents.Supers">
       <recent name="" />
+    </key>
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="com.kveola.hackerrank.interview" />
     </key>
     <key name="CreateClassDialog.RecentsKey">
       <recent name="main.java.com.kveola.basics" />
@@ -117,23 +128,26 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="JUnit.PersonTest.demonstrateArrays">
+  <component name="RunManager" selected="JUnit.CarLoggingTest.shouldDemonstrateLogging">
     <configuration default="true" type="Application" factoryName="Application">
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="forLoops" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.kveola.basics.forLoops" />
+    <configuration name="CarLoggingTest.shouldDemonstrateLogging" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="java-practice" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="com.kveola.basics.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
+      <option name="PACKAGE_NAME" value="com.kveola.basics" />
+      <option name="MAIN_CLASS_NAME" value="com.kveola.basics.CarLoggingTest" />
+      <option name="METHOD_NAME" value="shouldDemonstrateLogging" />
+      <option name="TEST_OBJECT" value="method" />
+      <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -223,11 +237,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.CarLoggingTest.shouldDemonstrateLogging" />
         <item itemvalue="JUnit.PersonTest.demonstrateArrays" />
         <item itemvalue="JUnit.PersonTest.shouldReturnNumberOfPersonsInLoop" />
         <item itemvalue="JUnit.PersonTest.shouldReturnNumberOfPersons" />
         <item itemvalue="JUnit.PersonTest" />
-        <item itemvalue="Application.forLoops" />
       </list>
     </recent_temporary>
   </component>
@@ -271,6 +285,7 @@
       <workItem from="1574102776419" duration="2134000" />
       <workItem from="1574272413546" duration="777000" />
       <workItem from="1574782105168" duration="4468000" />
+      <workItem from="1574875107778" duration="1792000" />
     </task>
     <task id="LOCAL−00001" summary="added better gitignore">
       <created>1566763715557</created>
