@@ -1,13 +1,15 @@
 package com.kveola.basics;
 
+import com.kveola.basics.enums.CarState;
+
 public class CarSelector {
     public static void main(String[] args) {
         //CarSelector carSelector = new CarSelector();
-        CarLogging carLogging = new CarLogging();
+        Logging logging = new Logging();
         for (String argument : args) {
             // new CarLogging().process(argument);
             if (isValid(argument)) {
-                carLogging.process(argument);
+                logging.process(argument);
             } else {
                 System.err.println("ignoring invalid argument " + argument);
             }

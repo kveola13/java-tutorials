@@ -1,4 +1,4 @@
-package com.kveola.basics;
+package com.kveola.basics.enums;
 
 public enum CarState {
     DRIVING, WAITING, PARKING;
