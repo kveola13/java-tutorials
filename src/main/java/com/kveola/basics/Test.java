@@ -1,6 +1,6 @@
 package com.kveola.basics;
 
-public class test {
+public class Test {
 
     public static void main(String[] args) {
         // Insert methods here to run them;
@@ -32,4 +32,5 @@ public class test {
         System.out.println(returnOne());
         System.out.println(returnTwo());
     }
+    
 }

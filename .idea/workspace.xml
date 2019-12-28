@@ -2,14 +2,11 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="d505f614-6ac8-4bad-8c1b-709fa8c09178" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/kveola/basics/inheritance/Animal.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/kveola/basics/inheritance/Dog.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/kveola/basics/inheritance/Gorilla.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/kveola/basics/inheritance/Lion.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/kveola/basics/inheritance/Tiger.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/kveola/basics/inheritance/Zoo.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/com/kveola/basics/inheritance/ZooTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/com/kveola/basics/consoles/XboxTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/kveola/basics/Logging.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/kveola/basics/Logging.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/kveola/basics/consoles/Xbox.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/kveola/basics/consoles/Xbox.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/kveola/basics/test.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/kveola/basics/Test.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -106,6 +103,7 @@
   </component>
   <component name="RecentsManager">
     <key name="CreateTestDialog.RecentsKey">
+      <recent name="com.kveola.basics.consoles" />
       <recent name="com.kveola.basics.inheritance" />
       <recent name="com.kveola.basics" />
       <recent name="main.java.com.kveola.basics" />
@@ -128,14 +126,14 @@
       <command value="mvn clean" />
     </option>
   </component>
-  <component name="RunManager" selected="JUnit.ZooTest.shouldFeedAllAnimals">
-    <configuration name="CarSelector" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.kveola.basics.CarSelector" />
+  <component name="RunManager" selected="JUnit.XboxTest.testCloneXbox">
+    <configuration name="Test" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.kveola.basics.Test" />
       <module name="java-practice" />
-      <option name="PROGRAM_PARAMETERS" value="flying PARKING DRIVING driving adcdfgh" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.kveola.basics.Interfaces.*" />
+          <option name="PATTERN" value="com.kveola.basics.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -145,39 +143,6 @@
     </configuration>
     <configuration default="true" type="Application" factoryName="Application">
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="CarSelectorTest.shouldCallMain" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="java-practice" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.kveola.basics.Interfaces.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="com.kveola.basics" />
-      <option name="MAIN_CLASS_NAME" value="com.kveola.basics.CarSelectorTest" />
-      <option name="METHOD_NAME" value="shouldCallMain" />
-      <option name="TEST_OBJECT" value="method" />
-      <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="LoggingTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="java-practice" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.kveola.basics.Interfaces.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="com.kveola.basics" />
-      <option name="MAIN_CLASS_NAME" value="com.kveola.basics.LoggingTest" />
-      <option name="TEST_OBJECT" value="class" />
-      <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -193,6 +158,40 @@
       <option name="PACKAGE_NAME" value="com.kveola.basics" />
       <option name="MAIN_CLASS_NAME" value="com.kveola.basics.LoggingTest" />
       <option name="METHOD_NAME" value="shouldDemonstrateInterfaces" />
+      <option name="TEST_OBJECT" value="method" />
+      <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="XboxTest.testCloneStringArray" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="java-practice" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.kveola.basics.consoles.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.kveola.basics.consoles" />
+      <option name="MAIN_CLASS_NAME" value="com.kveola.basics.consoles.XboxTest" />
+      <option name="METHOD_NAME" value="testCloneStringArray" />
+      <option name="TEST_OBJECT" value="method" />
+      <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="XboxTest.testCloneXbox" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="java-practice" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.kveola.basics.consoles.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.kveola.basics.consoles" />
+      <option name="MAIN_CLASS_NAME" value="com.kveola.basics.consoles.XboxTest" />
+      <option name="METHOD_NAME" value="testCloneXbox" />
       <option name="TEST_OBJECT" value="method" />
       <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
       <method v="2">
@@ -233,19 +232,19 @@
       </method>
     </configuration>
     <list>
-      <item itemvalue="Application.CarSelector" />
-      <item itemvalue="JUnit.CarLoggingTest" />
-      <item itemvalue="JUnit.CarSelectorTest.shouldCallMain" />
       <item itemvalue="JUnit.CarLoggingTest.shouldDemonstrateInterfaces" />
       <item itemvalue="JUnit.ZooTest.shouldFeedAllAnimals" />
+      <item itemvalue="Application.Test" />
+      <item itemvalue="JUnit.XboxTest.testCloneStringArray" />
+      <item itemvalue="JUnit.XboxTest.testCloneXbox" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.XboxTest.testCloneXbox" />
+        <item itemvalue="JUnit.XboxTest.testCloneStringArray" />
+        <item itemvalue="Application.Test" />
         <item itemvalue="JUnit.ZooTest.shouldFeedAllAnimals" />
         <item itemvalue="JUnit.CarLoggingTest.shouldDemonstrateInterfaces" />
-        <item itemvalue="Application.CarSelector" />
-        <item itemvalue="JUnit.CarSelectorTest.shouldCallMain" />
-        <item itemvalue="JUnit.CarLoggingTest" />
       </list>
     </recent_temporary>
   </component>
@@ -260,6 +259,7 @@
         </serviceView>
       </list>
     </option>
+    <option name="showServicesTree" value="false" />
   </component>
   <component name="SvnConfiguration">
     <configuration />
@@ -297,7 +297,7 @@
       <workItem from="1576867836618" duration="134000" />
       <workItem from="1577144447184" duration="164000" />
       <workItem from="1577276703056" duration="1320000" />
-      <workItem from="1577487380324" duration="7960000" />
+      <workItem from="1577487380324" duration="10485000" />
     </task>
     <task id="LOCAL−00001" summary="added better gitignore">
       <created>1566763715557</created>
@@ -335,7 +335,13 @@
       <option name="presentableId" value="LOCAL−00006" />
       <updated>1577547974640</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL−00007" summary="Added inheritance">
+      <created>1577555696840</created>
+      <option name="number" value="LOCAL−00007" />
+      <option name="presentableId" value="LOCAL−00007" />
+      <updated>1577555696869</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -361,7 +367,8 @@
     <MESSAGE value="Added exceptions" />
     <MESSAGE value="Added interfaces with consoles, refactored" />
     <MESSAGE value="Refactoring" />
-    <option name="LAST_COMMIT_MESSAGE" value="Refactoring" />
+    <MESSAGE value="Added inheritance" />
+    <option name="LAST_COMMIT_MESSAGE" value="Added inheritance" />
   </component>
   <component name="WindowStateProjectService">
     <state x="414" y="174" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1577543714748">
@@ -388,42 +395,42 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="690" y="268" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.0.1920.1040/-1920.7.1920.1040@0.0.1920.1040" timestamp="1577546450006" />
-    <state x="583" y="29" key="CommitChangelistDialog2" timestamp="1577547974131">
+    <state x="583" y="29" key="CommitChangelistDialog2" timestamp="1577555696185">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="583" y="29" key="CommitChangelistDialog2/0.0.1920.1040/-1920.7.1920.1040@0.0.1920.1040" timestamp="1577547974131" />
-    <state width="1877" height="263" key="GridCell.Tab.0.bottom" timestamp="1577555685111">
+    <state x="583" y="29" key="CommitChangelistDialog2/0.0.1920.1040/-1920.7.1920.1040@0.0.1920.1040" timestamp="1577555696185" />
+    <state width="1877" height="263" key="GridCell.Tab.0.bottom" timestamp="1577566940006">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="263" key="GridCell.Tab.0.bottom/0.0.1920.1040/-1920.7.1920.1040@0.0.1920.1040" timestamp="1577555685111" />
-    <state width="1877" height="263" key="GridCell.Tab.0.center" timestamp="1577555685111">
+    <state width="1877" height="263" key="GridCell.Tab.0.bottom/0.0.1920.1040/-1920.7.1920.1040@0.0.1920.1040" timestamp="1577566940006" />
+    <state width="1877" height="263" key="GridCell.Tab.0.center" timestamp="1577566940006">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="263" key="GridCell.Tab.0.center/0.0.1920.1040/-1920.7.1920.1040@0.0.1920.1040" timestamp="1577555685111" />
-    <state width="1877" height="263" key="GridCell.Tab.0.left" timestamp="1577555685111">
+    <state width="1877" height="263" key="GridCell.Tab.0.center/0.0.1920.1040/-1920.7.1920.1040@0.0.1920.1040" timestamp="1577566940006" />
+    <state width="1877" height="263" key="GridCell.Tab.0.left" timestamp="1577566940006">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="263" key="GridCell.Tab.0.left/0.0.1920.1040/-1920.7.1920.1040@0.0.1920.1040" timestamp="1577555685111" />
-    <state width="1877" height="263" key="GridCell.Tab.0.right" timestamp="1577555685111">
+    <state width="1877" height="263" key="GridCell.Tab.0.left/0.0.1920.1040/-1920.7.1920.1040@0.0.1920.1040" timestamp="1577566940006" />
+    <state width="1877" height="263" key="GridCell.Tab.0.right" timestamp="1577566940006">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="263" key="GridCell.Tab.0.right/0.0.1920.1040/-1920.7.1920.1040@0.0.1920.1040" timestamp="1577555685111" />
+    <state width="1877" height="263" key="GridCell.Tab.0.right/0.0.1920.1040/-1920.7.1920.1040@0.0.1920.1040" timestamp="1577566940006" />
     <state x="461" y="163" key="SettingsEditor" timestamp="1577544882045">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="461" y="163" key="SettingsEditor/0.0.1920.1040/-1920.7.1920.1040@0.0.1920.1040" timestamp="1577544882045" />
-    <state x="552" y="250" key="Vcs.Push.Dialog.v2" timestamp="1577547975712">
+    <state x="552" y="250" key="Vcs.Push.Dialog.v2" timestamp="1577555698829">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="552" y="250" key="Vcs.Push.Dialog.v2/0.0.1920.1040/-1920.7.1920.1040@0.0.1920.1040" timestamp="1577547975712" />
+    <state x="552" y="250" key="Vcs.Push.Dialog.v2/0.0.1920.1040/-1920.7.1920.1040@0.0.1920.1040" timestamp="1577555698829" />
     <state x="656" y="343" key="com.intellij.ide.util.TipDialog" timestamp="1577487380342">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="656" y="343" key="com.intellij.ide.util.TipDialog/0.0.1920.1040/-1920.7.1920.1040@0.0.1920.1040" timestamp="1577487380342" />
-    <state x="731" y="213" key="com.intellij.testIntegration.createTest.CreateTestDialog" timestamp="1577548935965">
+    <state x="731" y="213" key="com.intellij.testIntegration.createTest.CreateTestDialog" timestamp="1577565536052">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="731" y="213" key="com.intellij.testIntegration.createTest.CreateTestDialog/0.0.1920.1040/-1920.7.1920.1040@0.0.1920.1040" timestamp="1577548935965" />
+    <state x="731" y="213" key="com.intellij.testIntegration.createTest.CreateTestDialog/0.0.1920.1040/-1920.7.1920.1040@0.0.1920.1040" timestamp="1577565536052" />
     <state x="669" y="144" key="refactoring.ChangeSignatureDialog" timestamp="1575828604985">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>

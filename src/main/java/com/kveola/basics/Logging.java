@@ -16,11 +16,11 @@ public class Logging {
     }
 
     public void play() {
-        Console xbox = new Xbox();
+        Console xbox = new Xbox("Ola");
         Console playstation = new Playstation();
         Console nintendoS = new NintendoS();
 
-        Console[] consoles = {new Xbox(), new Playstation(), new NintendoS(),};
+        Console[] consoles = {new Xbox("Ola"), new Playstation(), new NintendoS(),};
 
         for (Console console : consoles) {
             console.play();

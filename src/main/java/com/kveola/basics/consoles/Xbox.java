@@ -5,7 +5,17 @@ import com.kveola.basics.Interfaces.Loggable;
 import com.kveola.basics.Interfaces.Price;
 import com.kveola.basics.Interfaces.Property;
 
-public class Xbox implements Console, Loggable, Property, Price {
+public class Xbox implements Console, Loggable, Price, Cloneable {
+    private String nameOfOwner;
+
+    public Xbox(String nameOfOwner){
+        this.nameOfOwner = nameOfOwner;
+    }
+
+    public String toString() {
+        return "Xbox belongs to " + nameOfOwner;
+    }
+
     @Override
     public void play() {
         System.out.println(Xbox.class.getName() + " playing");
@@ -15,9 +25,12 @@ public class Xbox implements Console, Loggable, Property, Price {
     public String message() {
         return "Log for " + Xbox.class.getName();
     }
-
     @Override
-    public String owner() {
-        return Xbox.class.getName() + " is owned by " + Console.class.getName();
+    public Xbox clone(){
+        try {
+            return (Xbox) super.clone();
+        } catch (CloneNotSupportedException cloneException) {
+            throw new AssertionError();
+        }
     }
 }
