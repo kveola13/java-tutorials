@@ -2,13 +2,14 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="d505f614-6ac8-4bad-8c1b-709fa8c09178" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/dictionaries/Ola.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dictionaries/Ola.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/kveola/basics/inheritance/Animal.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/kveola/basics/inheritance/Dog.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/kveola/basics/inheritance/Gorilla.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/kveola/basics/inheritance/Lion.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/kveola/basics/inheritance/Tiger.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/kveola/basics/inheritance/Zoo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/com/kveola/basics/inheritance/ZooTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/kveola/basics/CarLogging.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/kveola/basics/Logging.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/kveola/basics/CarSelector.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/kveola/basics/CarSelector.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/kveola/basics/CarState.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/kveola/basics/enums/CarState.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/kveola/basics/LoggingLevel.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/kveola/basics/enums/LoggingLevel.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/com/kveola/basics/CarLoggingTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/kveola/basics/LoggingTest.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -49,9 +50,9 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="Tag Library Descriptor" />
-        <option value="JUnit5 Test Class" />
-        <option value="Class" />
         <option value="Interface" />
+        <option value="Class" />
+        <option value="JUnit5 Test Class" />
       </list>
     </option>
   </component>
@@ -105,6 +106,7 @@
   </component>
   <component name="RecentsManager">
     <key name="CreateTestDialog.RecentsKey">
+      <recent name="com.kveola.basics.inheritance" />
       <recent name="com.kveola.basics" />
       <recent name="main.java.com.kveola.basics" />
       <recent name="main.java_basics" />
@@ -116,6 +118,7 @@
       <recent name="" />
     </key>
     <key name="CreateClassDialog.RecentsKey">
+      <recent name="com.kveola.basics.inheritance" />
       <recent name="com.kveola.basics" />
       <recent name="main.java.com.kveola.basics" />
     </key>
@@ -125,7 +128,7 @@
       <command value="mvn clean" />
     </option>
   </component>
-  <component name="RunManager" selected="JUnit.CarLoggingTest.shouldDemonstrateInterfaces">
+  <component name="RunManager" selected="JUnit.ZooTest.shouldFeedAllAnimals">
     <configuration name="CarSelector" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.kveola.basics.CarSelector" />
       <module name="java-practice" />
@@ -196,17 +199,17 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="LoggingTest.shouldDemonstrateLogging" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="ZooTest.shouldFeedAllAnimals" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="java-practice" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.kveola.basics.Interfaces.*" />
+          <option name="PATTERN" value="com.kveola.basics.inheritance.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="com.kveola.basics" />
-      <option name="MAIN_CLASS_NAME" value="com.kveola.basics.LoggingTest" />
-      <option name="METHOD_NAME" value="shouldDemonstrateLogging" />
+      <option name="PACKAGE_NAME" value="com.kveola.basics.inheritance" />
+      <option name="MAIN_CLASS_NAME" value="com.kveola.basics.inheritance.ZooTest" />
+      <option name="METHOD_NAME" value="shouldFeedAllAnimals" />
       <option name="TEST_OBJECT" value="method" />
       <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
       <method v="2">
@@ -231,18 +234,18 @@
     </configuration>
     <list>
       <item itemvalue="Application.CarSelector" />
-      <item itemvalue="JUnit.CarLoggingTest.shouldDemonstrateLogging" />
       <item itemvalue="JUnit.CarLoggingTest" />
       <item itemvalue="JUnit.CarSelectorTest.shouldCallMain" />
       <item itemvalue="JUnit.CarLoggingTest.shouldDemonstrateInterfaces" />
+      <item itemvalue="JUnit.ZooTest.shouldFeedAllAnimals" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.ZooTest.shouldFeedAllAnimals" />
         <item itemvalue="JUnit.CarLoggingTest.shouldDemonstrateInterfaces" />
         <item itemvalue="Application.CarSelector" />
         <item itemvalue="JUnit.CarSelectorTest.shouldCallMain" />
         <item itemvalue="JUnit.CarLoggingTest" />
-        <item itemvalue="JUnit.CarLoggingTest.shouldDemonstrateLogging" />
       </list>
     </recent_temporary>
   </component>
@@ -294,7 +297,7 @@
       <workItem from="1576867836618" duration="134000" />
       <workItem from="1577144447184" duration="164000" />
       <workItem from="1577276703056" duration="1320000" />
-      <workItem from="1577487380324" duration="5882000" />
+      <workItem from="1577487380324" duration="7960000" />
     </task>
     <task id="LOCAL−00001" summary="added better gitignore">
       <created>1566763715557</created>
@@ -326,7 +329,13 @@
       <option name="presentableId" value="LOCAL−00005" />
       <updated>1577547513043</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL−00006" summary="Refactoring">
+      <created>1577547974640</created>
+      <option name="number" value="LOCAL−00006" />
+      <option name="presentableId" value="LOCAL−00006" />
+      <updated>1577547974640</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -351,17 +360,18 @@
     <MESSAGE value="Added logging" />
     <MESSAGE value="Added exceptions" />
     <MESSAGE value="Added interfaces with consoles, refactored" />
-    <option name="LAST_COMMIT_MESSAGE" value="Added interfaces with consoles, refactored" />
+    <MESSAGE value="Refactoring" />
+    <option name="LAST_COMMIT_MESSAGE" value="Refactoring" />
   </component>
   <component name="WindowStateProjectService">
     <state x="414" y="174" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1577543714748">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="414" y="174" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1920.1040/-1920.7.1920.1040@0.0.1920.1040" timestamp="1577543714748" />
-    <state x="765" y="224" key="#com.intellij.ide.util.MemberChooser" timestamp="1577547239901">
+    <state x="765" y="224" key="#com.intellij.ide.util.MemberChooser" timestamp="1577554707140">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="765" y="224" key="#com.intellij.ide.util.MemberChooser/0.0.1920.1040/-1920.7.1920.1040@0.0.1920.1040" timestamp="1577547239901" />
+    <state x="765" y="224" key="#com.intellij.ide.util.MemberChooser/0.0.1920.1040/-1920.7.1920.1040@0.0.1920.1040" timestamp="1577554707140" />
     <state x="640" y="247" key="#com.intellij.openapi.updateSettings.impl.PluginUpdateInfoDialog" timestamp="1576867947031">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
@@ -378,45 +388,49 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="690" y="268" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.0.1920.1040/-1920.7.1920.1040@0.0.1920.1040" timestamp="1577546450006" />
-    <state x="583" y="29" key="CommitChangelistDialog2" timestamp="1577547957152">
+    <state x="583" y="29" key="CommitChangelistDialog2" timestamp="1577547974131">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="583" y="29" key="CommitChangelistDialog2/0.0.1920.1040/-1920.7.1920.1040@0.0.1920.1040" timestamp="1577547957152" />
-    <state width="1877" height="263" key="GridCell.Tab.0.bottom" timestamp="1577547838592">
+    <state x="583" y="29" key="CommitChangelistDialog2/0.0.1920.1040/-1920.7.1920.1040@0.0.1920.1040" timestamp="1577547974131" />
+    <state width="1877" height="263" key="GridCell.Tab.0.bottom" timestamp="1577555685111">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="263" key="GridCell.Tab.0.bottom/0.0.1920.1040/-1920.7.1920.1040@0.0.1920.1040" timestamp="1577547838592" />
-    <state width="1877" height="263" key="GridCell.Tab.0.center" timestamp="1577547838591">
+    <state width="1877" height="263" key="GridCell.Tab.0.bottom/0.0.1920.1040/-1920.7.1920.1040@0.0.1920.1040" timestamp="1577555685111" />
+    <state width="1877" height="263" key="GridCell.Tab.0.center" timestamp="1577555685111">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="263" key="GridCell.Tab.0.center/0.0.1920.1040/-1920.7.1920.1040@0.0.1920.1040" timestamp="1577547838591" />
-    <state width="1877" height="263" key="GridCell.Tab.0.left" timestamp="1577547838591">
+    <state width="1877" height="263" key="GridCell.Tab.0.center/0.0.1920.1040/-1920.7.1920.1040@0.0.1920.1040" timestamp="1577555685111" />
+    <state width="1877" height="263" key="GridCell.Tab.0.left" timestamp="1577555685111">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="263" key="GridCell.Tab.0.left/0.0.1920.1040/-1920.7.1920.1040@0.0.1920.1040" timestamp="1577547838591" />
-    <state width="1877" height="263" key="GridCell.Tab.0.right" timestamp="1577547838591">
+    <state width="1877" height="263" key="GridCell.Tab.0.left/0.0.1920.1040/-1920.7.1920.1040@0.0.1920.1040" timestamp="1577555685111" />
+    <state width="1877" height="263" key="GridCell.Tab.0.right" timestamp="1577555685111">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="263" key="GridCell.Tab.0.right/0.0.1920.1040/-1920.7.1920.1040@0.0.1920.1040" timestamp="1577547838591" />
+    <state width="1877" height="263" key="GridCell.Tab.0.right/0.0.1920.1040/-1920.7.1920.1040@0.0.1920.1040" timestamp="1577555685111" />
     <state x="461" y="163" key="SettingsEditor" timestamp="1577544882045">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="461" y="163" key="SettingsEditor/0.0.1920.1040/-1920.7.1920.1040@0.0.1920.1040" timestamp="1577544882045" />
-    <state x="552" y="250" key="Vcs.Push.Dialog.v2" timestamp="1577547514316">
+    <state x="552" y="250" key="Vcs.Push.Dialog.v2" timestamp="1577547975712">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="552" y="250" key="Vcs.Push.Dialog.v2/0.0.1920.1040/-1920.7.1920.1040@0.0.1920.1040" timestamp="1577547514316" />
+    <state x="552" y="250" key="Vcs.Push.Dialog.v2/0.0.1920.1040/-1920.7.1920.1040@0.0.1920.1040" timestamp="1577547975712" />
     <state x="656" y="343" key="com.intellij.ide.util.TipDialog" timestamp="1577487380342">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="656" y="343" key="com.intellij.ide.util.TipDialog/0.0.1920.1040/-1920.7.1920.1040@0.0.1920.1040" timestamp="1577487380342" />
-    <state x="731" y="213" key="com.intellij.testIntegration.createTest.CreateTestDialog" timestamp="1577487838986">
+    <state x="731" y="213" key="com.intellij.testIntegration.createTest.CreateTestDialog" timestamp="1577548935965">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="731" y="213" key="com.intellij.testIntegration.createTest.CreateTestDialog/0.0.1920.1040/-1920.7.1920.1040@0.0.1920.1040" timestamp="1577487838986" />
+    <state x="731" y="213" key="com.intellij.testIntegration.createTest.CreateTestDialog/0.0.1920.1040/-1920.7.1920.1040@0.0.1920.1040" timestamp="1577548935965" />
     <state x="669" y="144" key="refactoring.ChangeSignatureDialog" timestamp="1575828604985">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="669" y="144" key="refactoring.ChangeSignatureDialog/0.0.1920.1040/-1920.7.1920.1040@0.0.1920.1040" timestamp="1575828604985" />
+    <state x="623" y="225" key="search.everywhere.popup" timestamp="1577548571989">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="623" y="225" key="search.everywhere.popup/0.0.1920.1040/-1920.7.1920.1040@0.0.1920.1040" timestamp="1577548571989" />
   </component>
 </project>
