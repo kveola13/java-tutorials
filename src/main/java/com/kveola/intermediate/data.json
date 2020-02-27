@@ -1,0 +1,11 @@
+{
+  "name": "Geralt of Rivia",
+  "strength": 3,
+  "provisions": 12,
+  "description": "test of description",
+  "tags": {
+    "doomed": true,
+    "unique": true,
+    "deploy": "Destroy a target with 10 or more strength"
+  }
+}
