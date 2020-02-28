@@ -1,4 +1,4 @@
-package com.kveola.intermediate;
+package com.kveola.intermediate.EasyJackson;
 
 public class Tags {
     private boolean doomed;

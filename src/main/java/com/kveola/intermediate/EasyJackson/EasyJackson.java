@@ -1,4 +1,4 @@
-package com.kveola.intermediate;
+package com.kveola.intermediate.EasyJackson;
 
 import com.fasterxml.jackson.databind.ObjectMapper;
 
