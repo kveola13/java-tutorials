@@ -1,13 +1,11 @@
 package com.kveola.intermediate;
 
-import java.util.List;
-
 public class JsonDataParser {
     private String name;
     private int Strength;
     private int Provisions;
     private String description;
-    private List<Object> tags;
+    private Tags tags;
 
     public String getName() {
         return name;
@@ -41,12 +39,22 @@ public class JsonDataParser {
         this.description = description;
     }
 
-    public List<Object> getTags() {
+    public Tags getTags() {
         return tags;
     }
 
-    public void setTags(List<Object> tags) {
+    public void setTags(Tags tags) {
         this.tags = tags;
     }
 
+    @Override
+    public String toString() {
+        return getName() + "\n" +
+                getStrength() + "\n" +
+                getProvisions() + "\n" +
+                getDescription() + "\n" +
+                getTags().isDoomed() + "\n" +
+                getTags().isUnique() + "\n" +
+                getTags().getDeploy() + "\n";
+    }
 }

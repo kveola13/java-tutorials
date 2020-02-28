@@ -6,6 +6,7 @@
   "tags": {
     "doomed": true,
     "unique": true,
-    "deploy": "Destroy a target with 10 or more strength"
+    "deploy": "Destroy an enemy with more than 10 power"
   }
 }
+
