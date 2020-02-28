@@ -13,7 +13,7 @@ public class EasyJackson {
     public static void main(String[] args) throws IOException {
         Path path = Paths.get(System.getProperty("user.dir"));
         System.out.println(path);
-        String jsonDataPath = "src/main/java/com/kveola/intermediate/data.json";
+        String jsonDataPath = "src/main/java/com/kveola/intermediate/EasyJackson/data.json";
         String input = new String(Files.readAllBytes(Paths.get(jsonDataPath)), StandardCharsets.UTF_8);
         ObjectMapper objectMapper = new ObjectMapper();
         JsonDataParser jsonDataParsed = objectMapper.readValue(input, JsonDataParser.class);
