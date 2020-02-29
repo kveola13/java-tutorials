@@ -49,12 +49,12 @@ public class JsonDataParser {
 
     @Override
     public String toString() {
-        return getName() + "\n" +
-                getStrength() + "\n" +
-                getProvisions() + "\n" +
-                getDescription() + "\n" +
-                getTags().isDoomed() + "\n" +
-                getTags().isUnique() + "\n" +
-                getTags().getDeploy() + "\n";
+        return "JsonDataParser{" +
+                "name='" + name + '\'' +
+                ", Strength=" + Strength +
+                ", Provisions=" + Provisions +
+                ", description='" + description + '\'' +
+                ", tags={" + tags +
+                '}';
     }
 }

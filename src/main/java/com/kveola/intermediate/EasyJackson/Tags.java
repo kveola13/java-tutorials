@@ -5,6 +5,12 @@ public class Tags {
     private boolean unique;
     private String deploy;
 
+    public Tags(boolean doomed, boolean unique, String deploy) {
+        this.doomed = doomed;
+        this.unique = unique;
+        this.deploy = deploy;
+    }
+
     public boolean isDoomed() {
         return doomed;
     }
@@ -27,5 +33,14 @@ public class Tags {
 
     public void setDeploy(String deploy) {
         this.deploy = deploy;
+    }
+
+    @Override
+    public String toString() {
+        return "Tags{" +
+                "doomed=" + doomed +
+                ", unique=" + unique +
+                ", deploy='" + deploy + '\'' +
+                '}';
     }
 }

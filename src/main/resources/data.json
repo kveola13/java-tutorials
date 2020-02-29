@@ -1,0 +1,11 @@
+{
+  "name": "Yennefer of Vengerberg",
+  "Strength": 3,
+  "provisions": 11,
+  "description": "another test",
+  "tags": {
+    "doomed": false,
+    "unique": false,
+    "deploy": "Boost a friendly unit by the power of a revealed card in your deck"
+  }
+}
