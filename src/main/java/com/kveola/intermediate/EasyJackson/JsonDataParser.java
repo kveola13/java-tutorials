@@ -1,11 +1,29 @@
 package com.kveola.intermediate.EasyJackson;
 
 public class JsonDataParser {
+    private int id;
     private String name;
     private int Strength;
     private int Provisions;
     private String description;
     private Tags tags;
+
+    public JsonDataParser(int id, String name, int strength, int provisions, String description, Tags tags) {
+        this.id = id;
+        this.name = name;
+        Strength = strength;
+        Provisions = provisions;
+        this.description = description;
+        this.tags = tags;
+    }
+
+    public int getId() {
+        return id;
+    }
+
+    public void setId(int id) {
+        this.id = id;
+    }
 
     public String getName() {
         return name;
@@ -49,12 +67,10 @@ public class JsonDataParser {
 
     @Override
     public String toString() {
-        return "JsonDataParser{" +
-                "name='" + name + '\'' +
+        return "name='" + name + '\'' +
                 ", Strength=" + Strength +
                 ", Provisions=" + Provisions +
                 ", description='" + description + '\'' +
-                ", tags={" + tags +
-                '}';
+                ", tags={" + tags;
     }
 }

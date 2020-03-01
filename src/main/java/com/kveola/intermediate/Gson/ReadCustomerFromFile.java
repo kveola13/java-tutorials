@@ -15,7 +15,7 @@ import java.util.List;
 
 public class ReadCustomerFromFile {
     public static void main(String[] args) throws FileNotFoundException {
-        File file = new File("src/main/resources/data.json");
+        File file = new File("src/main/java/com/kveola/intermediate/EasyJackson/data.json");
         FileReader fileReader = new FileReader(file);
 
         Gson gson = new Gson();

@@ -1,11 +1,25 @@
-{
-  "name": "Yennefer of Vengerberg",
-  "Strength": 3,
-  "provisions": 11,
-  "description": "another test",
-  "tags": {
-    "doomed": false,
-    "unique": false,
-    "deploy": "Boost a friendly unit by the power of a revealed card in your deck"
+[
+  {
+    "name": "Geralt of Rivia",
+    "strength": 3,
+    "provisions": 12,
+    "description": "test of description",
+    "tags": {
+      "doomed": true,
+      "unique": true,
+      "deploy": "Destroy an enemy with more than 10 power"
+    }
+  },
+  {
+    "id": 1,
+    "name": "Yennefer of Vengerberg",
+    "Strength": 3,
+    "provisions": 11,
+    "description": "another test",
+    "tags": {
+      "doomed": false,
+      "unique": false,
+      "deploy": "Boost a friendly unit by the power of a revealed card in your deck"
+    }
   }
-}
+]
