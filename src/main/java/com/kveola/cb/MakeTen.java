@@ -9,6 +9,5 @@ public class MakeTen {
         System.out.println(makes10(9, 10));
         System.out.println(makes10(9, 9));
         System.out.println(makes10(1, 9));
-
     }
 }
