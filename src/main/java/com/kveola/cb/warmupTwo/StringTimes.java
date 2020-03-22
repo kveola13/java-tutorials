@@ -1,7 +1,7 @@
 package com.kveola.cb.warmupTwo;
 
 public class StringTimes {
-    public String stringTimes(String str, int n) {
-        return str + n;
+    public static String stringTimes(String str, int n) {
+        return str.repeat(n);
     }
 }
