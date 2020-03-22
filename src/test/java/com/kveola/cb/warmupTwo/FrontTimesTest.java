@@ -16,7 +16,23 @@ class FrontTimesTest {
         assertEquals("ChoChoCho", frontTimes("Chocolate", 3));
     }
     @Test
-    void frontTimesTestThree() {
+    void frontTimesTestFour() {
         assertEquals("AbcAbcAbc", frontTimes("Abc", 3));
+    }
+    @Test
+    void frontTimesTestFive() {
+        assertEquals("AbAbAbAb", frontTimes("Ab", 4));
+    }
+    @Test
+    void frontTimesTestSix() {
+        assertEquals("AAAA", frontTimes("A", 4));
+    }
+    @Test
+    void frontTimesTestSeven() {
+        assertEquals("", frontTimes("", 4));
+    }
+    @Test
+    void frontTimesTestEight() {
+        assertEquals("", frontTimes("Abc", 0));
     }
 }
