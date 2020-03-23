@@ -32,4 +32,8 @@ class DoubleXsTest {
     void altDoubleXTestThree() {
         assertTrue(altDoubleX("xxxxx"));
     }
+    @Test
+    void altDoubleXTestFour(){
+        assertFalse(altDoubleX(""));
+    }
 }
