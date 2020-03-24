@@ -11,10 +11,12 @@ class StringExplodeTest {
     void stringSplosionTestOne() {
         assertEquals("CCoCodCode", stringSplosion("Code"));
     }
+
     @Test
     void stringSplosionTestTwo() {
         assertEquals("aababc", stringSplosion("abc"));
     }
+
     @Test
     void stringSplosionTestThree() {
         assertEquals("aab", stringSplosion("ab"));
