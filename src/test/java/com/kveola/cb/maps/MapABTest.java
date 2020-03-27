@@ -6,6 +6,7 @@ import java.util.HashMap;
 import java.util.Map;
 
 import static com.kveola.cb.maps.MapAB.mapAB;
+import static com.kveola.cb.maps.MapAB.mapAB2;
 import static org.junit.jupiter.api.Assertions.*;
 
 class MapABTest {
@@ -32,5 +33,27 @@ class MapABTest {
         Map<String, String> solvedMap = new HashMap<>
                 (Map.of("b", "There"));
         assertEquals(solvedMap, mapAB(initMap));
+    }
+
+    @Test
+    void mapAB2TestOne() {
+        Map<String, String> initMap = new HashMap<>(Map.of("a", "aaa", "b", "aaa", "c", "cake"));
+        Map<String, String> solvedMap = new HashMap<>
+                (Map.of("c", "cake"));
+        assertEquals(solvedMap, mapAB2(initMap));
+    }
+    @Test
+    void mapAB2TestTwo() {
+        Map<String, String> initMap = new HashMap<>(Map.of("a", "aaa", "b", "bbb"));
+        Map<String, String> solvedMap = new HashMap<>
+                (Map.of("a", "aaa", "b", "bbb"));
+        assertEquals(solvedMap, mapAB2(initMap));
+    }
+    @Test
+    void mapAB2TestThree() {
+        Map<String, String> initMap = new HashMap<>(Map.of("a", "aaa", "b", "bbb", "c", "aaa"));
+        Map<String, String> solvedMap = new HashMap<>
+                (Map.of("a", "aaa", "b", "bbb", "c", "aaa"));
+        assertEquals(solvedMap, mapAB2(initMap));
     }
 }
