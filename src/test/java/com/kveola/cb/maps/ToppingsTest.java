@@ -6,8 +6,7 @@ import java.util.HashMap;
 import java.util.Map;
 
 import static com.kveola.cb.maps.MapAB.mapAB;
-import static com.kveola.cb.maps.Toppings.topping1;
-import static com.kveola.cb.maps.Toppings.topping2;
+import static com.kveola.cb.maps.Toppings.*;
 import static org.junit.jupiter.api.Assertions.*;
 
 class ToppingsTest {
@@ -58,5 +57,29 @@ class ToppingsTest {
         Map<String, String> solvedMap = new HashMap<>
                 (Map.of("yogurt", "salt"));
         assertEquals(solvedMap, topping2(initMap));
+    }
+
+    @Test
+    void topping3TestOne() {
+        Map<String, String> initMap = new HashMap<>(Map.of("potato", "ketchup"));
+        Map<String, String> solvedMap = new HashMap<>
+                (Map.of("potato", "ketchup", "fries", "ketchup"));
+        assertEquals(solvedMap, topping3(initMap));
+    }
+
+    @Test
+    void topping3TestTwo() {
+        Map<String, String> initMap = new HashMap<>(Map.of("potato", "butter"));
+        Map<String, String> solvedMap = new HashMap<>
+                (Map.of("potato", "butter", "fries", "butter"));
+        assertEquals(solvedMap, topping3(initMap));
+    }
+
+    @Test
+    void topping3TestThree() {
+        Map<String, String> initMap = new HashMap<>(Map.of("salad", "oil", "potato", "ketchup"));
+        Map<String, String> solvedMap = new HashMap<>
+                (Map.of("spinach", "oil", "salad", "oil", "potato", "ketchup", "fries", "ketchup"));
+        assertEquals(solvedMap, topping3(initMap));
     }
 }
