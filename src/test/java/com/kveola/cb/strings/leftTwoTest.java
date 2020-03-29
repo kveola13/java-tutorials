@@ -2,7 +2,7 @@ package com.kveola.cb.strings;
 
 import org.junit.jupiter.api.Test;
 
-import static com.kveola.cb.strings.leftTwo.left2;
+import static com.kveola.cb.strings.LeftTwo.left2;
 import static org.junit.jupiter.api.Assertions.*;
 
 class leftTwoTest {
