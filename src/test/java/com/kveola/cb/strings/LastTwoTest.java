@@ -11,18 +11,22 @@ class LastTwoTest {
     void lastTwoTestOne() {
         assertEquals("codign", lastTwo("coding"));
     }
+
     @Test
     void lastTwoTestTwo() {
         assertEquals("cta", lastTwo("cat"));
     }
+
     @Test
     void lastTwoTestThree() {
         assertEquals("ab", lastTwo("ba"));
     }
+
     @Test
     void lastTwoTestFour() {
         assertEquals("a", lastTwo("a"));
     }
+
     @Test
     void lastTwoTestFive() {
         assertEquals("", lastTwo(""));

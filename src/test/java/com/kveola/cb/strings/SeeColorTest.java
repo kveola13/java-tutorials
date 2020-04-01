@@ -11,10 +11,12 @@ class SeeColorTest {
     void seeColorTestOne() {
         assertEquals("red", seeColor("redxx"));
     }
+
     @Test
     void seeColorTestTwo() {
         assertEquals("", seeColor("xxred"));
     }
+
     @Test
     void seeColorTestThree() {
         assertEquals("blue", seeColor("blueTimes"));
