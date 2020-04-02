@@ -15,17 +15,9 @@ public class WithoutX {
     }
 
     public static String withoutX2(String str) {
-        if (str.length() < 2) return "";
+        if (str.length() < 2) return str.replaceAll("x", "");
         String subStr = str.substring(0, 2);
-        if (subStr.startsWith("x")) {
-            subStr = subStr.substring(1);
-            if(subStr.startsWith("x")){
-                subStr = subStr.substring(1);
-            }
-        }
-        if (subStr.endsWith("x")) {
-            subStr = subStr.substring(0, 1);
-        }
+        subStr = subStr.replaceAll("x", "");
         return subStr + str.substring(2);
     }
 }
