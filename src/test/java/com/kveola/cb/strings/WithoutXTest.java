@@ -3,6 +3,7 @@ package com.kveola.cb.strings;
 import org.junit.jupiter.api.Test;
 
 import static com.kveola.cb.strings.WithoutX.withoutX;
+import static com.kveola.cb.strings.WithoutX.withoutX2;
 import static org.junit.jupiter.api.Assertions.*;
 
 class WithoutXTest {
@@ -20,5 +21,19 @@ class WithoutXTest {
     @Test
     void withoutXTestThree() {
         assertEquals("Hxi", withoutX("Hxix"));
+    }
+    @Test
+    void withoutX2TestOne() {
+        assertEquals("Hi", withoutX2("xHi"));
+    }
+
+    @Test
+    void withoutX2TestTwo() {
+        assertEquals("Hi", withoutX2("Hxi"));
+    }
+
+    @Test
+    void withoutX2TestThree() {
+        assertEquals("Hi", withoutX2("Hi"));
     }
 }

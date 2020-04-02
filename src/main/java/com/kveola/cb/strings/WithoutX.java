@@ -13,4 +13,19 @@ public class WithoutX {
         }
         return returnText;
     }
+
+    public static String withoutX2(String str) {
+        if (str.length() < 2) return "";
+        String subStr = str.substring(0, 2);
+        if (subStr.startsWith("x")) {
+            subStr = subStr.substring(1);
+            if(subStr.startsWith("x")){
+                subStr = subStr.substring(1);
+            }
+        }
+        if (subStr.endsWith("x")) {
+            subStr = subStr.substring(0, 1);
+        }
+        return subStr + str.substring(2);
+    }
 }
