@@ -2,7 +2,7 @@ package com.kveola.cb.logic.one;
 
 import org.junit.jupiter.api.Test;
 
-import static com.kveola.cb.logic.one.inOneToTen.in1To10;
+import static com.kveola.cb.logic.one.InOneToTen.in1To10;
 import static org.junit.jupiter.api.Assertions.*;
 
 class inOneToTenTest {
