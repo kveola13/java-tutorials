@@ -11,10 +11,12 @@ class TeenSumTest {
     void teenSumTestOne() {
         assertEquals(7, teenSum(3, 4));
     }
+
     @Test
     void teenSumTestTwo() {
         assertEquals(19, teenSum(10, 13));
     }
+
     @Test
     void teenSumTestThree() {
         assertEquals(19, teenSum(13, 2));
