@@ -21,4 +21,9 @@ class CountYZTest {
     void countYZTestThree() {
         assertEquals(2, countYZ("day fyyyz"));
     }
+
+    @Test
+    void countYZTestFour() {
+        assertEquals(2, countYZ("y2bz"));
+    }
 }
