@@ -5,7 +5,7 @@ import org.junit.jupiter.api.Test;
 import static com.kveola.cb.arrays.two.More14.more14;
 import static org.junit.jupiter.api.Assertions.*;
 
-class only14Test {
+class More14Test {
 
     @Test
     void more14TestOne() {
