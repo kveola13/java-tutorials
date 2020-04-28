@@ -13,4 +13,15 @@ public class Post4 {
         }
         return returnArray;
     }
+
+    public static int[] post4Alt(int[] nums) {
+        int count = 0;
+        for (int i = nums.length-1; i >= 0; i--) {
+            if (nums[i] == 4) break;
+            count++;
+        }
+        int[] returnArray = new int[count];
+        if (count >= 0) System.arraycopy(nums, nums.length - count, returnArray, 0, count);
+        return returnArray;
+    }
 }
