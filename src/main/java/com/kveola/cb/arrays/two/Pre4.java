@@ -13,4 +13,14 @@ public class Pre4 {
         }
         return returnArray;
     }
+    public static int[] pre4Alt(int[] nums) {
+        int count = 0;
+        for (int num : nums) {
+            if (num == 4) break;
+            count++;
+        }
+        int[] returnArray = new int[count];
+        if (count >= 0) System.arraycopy(nums, 0, returnArray, 0, count);
+        return returnArray;
+    }
 }
