@@ -14,7 +14,7 @@ class CanBalanceTest {
 
     @Test
     void canBalanceTestTwo() {
-        assertTrue(canBalance(new int[]{2, 1, 1, 2, 1}));
+        assertFalse(canBalance(new int[]{2, 1, 1, 2, 1}));
     }
 
     @Test
