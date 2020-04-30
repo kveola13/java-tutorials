@@ -1,6 +1,5 @@
 package com.kveola.cb.arrays.two;
 
-import java.util.Arrays;
 
 public class FizzBuzz {
     public static String[] fizzBuzz(int start, int end) {
