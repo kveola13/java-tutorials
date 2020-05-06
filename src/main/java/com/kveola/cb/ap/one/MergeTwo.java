@@ -4,7 +4,7 @@ import java.util.*;
 
 public class MergeTwo {
     public static String[] mergeTwo(String[] a, String[] b, int n) {
-        Set<String> set = new HashSet();
+        Set<String> set = new HashSet<String>();
         set.addAll(Arrays.asList(a));
         set.addAll(Arrays.asList(b));
 
