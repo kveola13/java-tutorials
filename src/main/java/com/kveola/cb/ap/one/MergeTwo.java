@@ -1,25 +1,15 @@
 package com.kveola.cb.ap.one;
 
-import java.util.Arrays;
-import java.util.HashSet;
+import java.util.*;
 
 public class MergeTwo {
     public static String[] mergeTwo(String[] a, String[] b, int n) {
-        Arrays.sort(a);
-        Arrays.sort(b);
-        HashSet<String> finalReturn = new HashSet<>();
-        for (String s : a) {
-            if (finalReturn.add(s)) {
-                finalReturn.add(s);
-            }
-        }
-        for (String s : b) {
-            if (finalReturn.add(s)) {
-                finalReturn.add(s);
-            }
-        }
-        String [] returnArray = new String[n];
-        if (n >= 0) System.arraycopy(finalReturn.toArray(), 0, returnArray, 0, n);
-        return returnArray;
+        Set<String> set = new HashSet();
+        set.addAll(Arrays.asList(a));
+        set.addAll(Arrays.asList(b));
+
+        List<String> list = new ArrayList(set);
+
+        return list.subList(0, n).toArray(new String[n]);
     }
 }
