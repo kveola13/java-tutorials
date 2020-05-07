@@ -1,12 +1,11 @@
-package com.kveola.cb.maps;
+package com.kveola.cb.maps.one;
 
 import org.junit.jupiter.api.Test;
 
 import java.util.HashMap;
 import java.util.Map;
 
-import static com.kveola.cb.maps.MapAB.mapAB;
-import static com.kveola.cb.maps.Toppings.*;
+import static com.kveola.cb.maps.one.Toppings.*;
 import static org.junit.jupiter.api.Assertions.*;
 
 class ToppingsTest {

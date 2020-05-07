@@ -1,12 +1,11 @@
-package com.kveola.cb.maps;
+package com.kveola.cb.maps.one;
 
 import org.junit.jupiter.api.Test;
 
 import java.util.HashMap;
 import java.util.Map;
 
-import static com.kveola.cb.maps.MapBully.mapBully;
-import static com.kveola.cb.maps.MapShare.mapShare;
+import static com.kveola.cb.maps.one.MapShare.mapShare;
 import static org.junit.jupiter.api.Assertions.*;
 
 class MapShareTest {

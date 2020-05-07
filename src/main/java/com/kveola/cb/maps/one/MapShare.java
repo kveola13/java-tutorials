@@ -1,4 +1,4 @@
-package com.kveola.cb.maps;
+package com.kveola.cb.maps.one;
 
 import java.util.Map;
 
