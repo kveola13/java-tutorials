@@ -1,10 +1,10 @@
-package com.kveola.cb.functional;
+package com.kveola.cb.functional.one;
 
 import org.junit.jupiter.api.Test;
 
 import java.util.List;
 
-import static com.kveola.cb.functional.Doubling.doubling;
+import static com.kveola.cb.functional.one.Doubling.doubling;
 import static org.junit.jupiter.api.Assertions.*;
 
 class DoublingTest {

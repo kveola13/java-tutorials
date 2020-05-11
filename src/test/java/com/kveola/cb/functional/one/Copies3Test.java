@@ -1,11 +1,11 @@
-package com.kveola.cb.functional;
+package com.kveola.cb.functional.one;
 
 import org.junit.jupiter.api.Test;
 
 import java.util.List;
 
-import static com.kveola.cb.functional.Copies3.copies3;
-import static com.kveola.cb.functional.Copies3.copies3Alt;
+import static com.kveola.cb.functional.one.Copies3.copies3;
+import static com.kveola.cb.functional.one.Copies3.copies3Alt;
 import static org.junit.jupiter.api.Assertions.*;
 
 class Copies3Test {

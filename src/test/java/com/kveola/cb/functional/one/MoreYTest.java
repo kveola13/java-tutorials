@@ -1,10 +1,10 @@
-package com.kveola.cb.functional;
+package com.kveola.cb.functional.one;
 
 import org.junit.jupiter.api.Test;
 
 import java.util.List;
 
-import static com.kveola.cb.functional.MoreY.moreY;
+import static com.kveola.cb.functional.one.MoreY.moreY;
 import static org.junit.jupiter.api.Assertions.*;
 
 class MoreYTest {

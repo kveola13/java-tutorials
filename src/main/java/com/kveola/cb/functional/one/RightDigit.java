@@ -1,4 +1,4 @@
-package com.kveola.cb.functional;
+package com.kveola.cb.functional.one;
 
 import java.util.List;
 import java.util.stream.Collectors;

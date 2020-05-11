@@ -1,10 +1,10 @@
-package com.kveola.cb.functional;
+package com.kveola.cb.functional.one;
 
 import org.junit.jupiter.api.Test;
 
 import java.util.List;
 
-import static com.kveola.cb.functional.Square.square;
+import static com.kveola.cb.functional.one.Square.square;
 import static org.junit.jupiter.api.Assertions.*;
 
 class SquareTest {
